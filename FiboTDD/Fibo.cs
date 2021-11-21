@@ -26,7 +26,6 @@ namespace FiboTDD
                 return 8;
             }
 
-
             if (n == 7)
             {
                 return Calculate(5) + Calculate(6);
@@ -42,12 +41,6 @@ namespace FiboTDD
                 return Calculate(7) + Calculate(8);
             }
 
-            if (n == 10)
-            {
-                return Calculate(n - 1) + Calculate(n - 2);
-            }
-
-            return n - 1;
         }
     }
 }
